@@ -1,0 +1,88 @@
+5   	`	`	`   * {
+  box-sizing: border-box;
+}
+body  {
+  margin: 0;
+  font-family: 'palatino', sans-serif;
+  font-size: 1.25em;
+}
+header {
+  min-height:100vh;
+  background-color: purple;
+}
+nav {
+  background-color:red;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+	color:#f4f142 ;
+}
+
+
+
+
+
+
+
+nav li {
+  display: inline-block;
+  padding:  1em;
+}
+nav ul {
+  margin:0;
+}
+header main {
+  padding-top: 4em;
+  text-align:center;
+  font-size: 1.25em;
+}
+h1  {
+  font-size:2.0em;
+  letter-spacing: 0.5em;
+  }
+  
+header img{
+  /* padding: 1em; */
+  /* padding-top: 1em; */
+  width: 20%;
+  border-radius: 30%;
+  border: 15px blue;
+}
+.about-me {
+  padding: 3em 1em;
+  line-height: 1.25;
+  background-color: red;
+  color: white;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+
+
+.projects{
+  color: blue;
+  padding: 3em 0;
+  background-image: url(https://www.visitsutherlandshire.com.au/uploads/144/fishing-hero.jpg);
+  background-size: cover;
+}
+
+
+.projects img {
+  width:20%;
+  padding: 30px 30px 30px 0;
+}
+
+@media only screen and (max-width: 770px) {
+  header img {
+    width: 300px;
+  }
+}
